@@ -1,0 +1,21 @@
+.header{
+    border: 1px solid #f12;
+    border-radius: 10px;
+    padding: 4px;
+    margin: 10px;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+
+}
+.nav a:hover{
+    color: #f12;
+    text-decoration: dotted;
+}
+.nav li{
+    display: inline-block;
+    margin: 10px;
+}
